@@ -29,7 +29,7 @@ function SayFullName(props)
   return (
     <div>
       <h1>Я {props.name} {props.surname}</h1>
-      <a href = {props.link}>LINK</a>
+      <p><a href = {props.link}>LINK</a></p>
     </div>
   )
 }
